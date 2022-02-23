@@ -4,6 +4,12 @@ body {
   padding: 0px;
 }
 
+/********************************
+Header Components
+-navbar
+-banner
+********************************/
+
 .header {
   display: flex;
   flex-direction: column;
@@ -57,6 +63,7 @@ li {
 
 .banner button {
   background-color: #3882f6;
+  border: none;
   padding: 10px;
   color: #f9faf8;
   font-weight: bold;
