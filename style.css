@@ -151,3 +151,57 @@ quote-section Components
   justify-content: flex-end;
   font-weight: bold;
 }
+
+/********************************
+signUp-section
+********************************/
+
+.signUp-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUp-popUp {
+  background-color: #3882f6;
+  width: 1000px;
+  padding: 30px;
+  color: white;
+  border-radius: 5px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  padding: 16px;
+}
+
+.beg {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.beg h1,
+.beg p {
+  padding: 0;
+  margin: 0;
+}
+
+.signUp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signUp button {
+  border: 2px solid white;
+  padding: 10px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #3882f6;
+  box-shadow: none;
+  color: white;
+}
