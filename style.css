@@ -109,6 +109,7 @@ random-info-section Components
 .items {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 50px;
 }
 
@@ -118,7 +119,6 @@ random-info-section Components
   align-items: center;
   text-align: center;
   width: 200px;
-  flex-shrink: 1;
 }
 
 .item img {
