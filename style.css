@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   display: flex;
   flex-direction: column;
   padding: 0px;
@@ -15,6 +16,7 @@ Header Components
   display: flex;
   flex-direction: column;
   background-color: #1f2937;
+  gap: 16px;
   font-size: 18px;
   color: hsl(220, 13%, 91%);
   margin: 0;
@@ -60,6 +62,14 @@ li {
 .banner-left,
 .banner-right {
   width: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner img {
+  background-color: gray;
+  width: 800px;
+  height: 600px;
 }
 
 .banner button {
@@ -204,4 +214,17 @@ signUp-section
   background-color: #3882f6;
   box-shadow: none;
   color: white;
+}
+
+/*****************************
+Footer
+******************************/
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 30px;
 }
