@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0px;
+  gap: 60px;
 }
 
 /********************************
@@ -92,13 +93,12 @@ random-info-section Components
   font-weight: 900;
   color: #1f2937;
   text-align: center;
-  margin: 60px 0px;
+  margin: 0px 0px 60px;
 }
 
 .items {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 50px;
 }
 
@@ -108,6 +108,7 @@ random-info-section Components
   align-items: center;
   text-align: center;
   width: 200px;
+  flex-shrink: 1;
 }
 
 .item img {
@@ -116,4 +117,91 @@ random-info-section Components
   border-radius: 15px;
   border-style: solid;
   border-color: #3882f6;
+}
+
+/********************************
+quote-section Components
+-quote
+-signature
+********************************/
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  font-size: 36px;
+}
+
+.quote-container {
+  padding: 80px;
+}
+
+.quote {
+  font-style: italic;
+  font-weight: lighter;
+  text-align: left;
+  width: 800px;
+  margin-bottom: 0px;
+}
+
+.signature {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+
+/********************************
+signUp-section
+********************************/
+
+.signUp-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUp-popUp {
+  background-color: #3882f6;
+  width: 1000px;
+  padding: 30px;
+  color: white;
+  border-radius: 5px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  padding: 16px;
+}
+
+.beg {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.beg h1,
+.beg p {
+  padding: 0;
+  margin: 0;
+}
+
+.signUp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signUp button {
+  border-color: white;
+  padding: 10px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #3882f6;
+  box-shadow: none;
+  color: white;
 }
